@@ -1,0 +1,17 @@
+{
+  "name": "tumorpictures.com",
+  "version": "1.0.0",
+  "description": "Pictures of tumors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breck7/tumorpictures.com.git"
+  },
+  "author": "Breck Yunits",
+  "bugs": {
+    "url": "https://github.com/breck7/tumorpictures.com/issues"
+  },
+  "homepage": "https://tumorpictures.com",
+  "dependencies": {
+    "scroll-cli": "^47.1.1"
+  }
+}
