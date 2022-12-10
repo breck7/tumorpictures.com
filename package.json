@@ -12,6 +12,6 @@
   },
   "homepage": "https://tumorpictures.com",
   "dependencies": {
-    "scroll-cli": "^47.1.1"
+    "scroll-cli": "^47.1.2"
   }
 }
