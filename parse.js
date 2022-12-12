@@ -17,7 +17,7 @@ new TreeNode(content).forEach((entry) => {
 title ${Type} - ${Organ}
 description ${Caption}
 date 12/12/2022
-author ${URL} ${authorName}
+author ${URL} ${Author}
 
 openGraphImage ${URL}
 
