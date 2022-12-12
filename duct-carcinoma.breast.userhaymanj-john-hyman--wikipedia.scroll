@@ -1,0 +1,13 @@
+import header.scroll
+title Duct carcinoma - Breast
+description Excised breast tissue showing a stellate, pale area of cancer measuring 2 cm across.
+date 12/12/2022
+author https://commons.wikimedia.org/wiki/File:Breast_cancer.JPG User:Haymanj (John Hyman)  wikipedia
+
+openGraphImage https://commons.wikimedia.org/wiki/File:Breast_cancer.JPG
+
+image https://commons.wikimedia.org/wiki/File:Breast_cancer.JPG
+ caption Excised breast tissue showing a stellate, pale area of cancer measuring 2 cm across.
+
+groups index
+scrollFooter
