@@ -1,0 +1,13 @@
+import header.scroll
+title Squamous cell carcinoma - Lung
+description Pneumonectomy specimen containing a squamous-cell carcinoma, seen as a white area near the bronchi
+date 12/12/2022
+author https://upload.wikimedia.org/wikipedia/commons/2/2d/Lung_cancer.jpg Emmanuelm at en.wikipedia
+
+openGraphImage https://upload.wikimedia.org/wikipedia/commons/2/2d/Lung_cancer.jpg
+
+image https://upload.wikimedia.org/wikipedia/commons/2/2d/Lung_cancer.jpg
+ caption Pneumonectomy specimen containing a squamous-cell carcinoma, seen as a white area near the bronchi
+
+groups index
+scrollFooter
