@@ -1,0 +1,13 @@
+import header.scroll
+title Glioblastoma  - Brain
+description Section of a brain affected by a glioblastoma
+date 12/12/2022
+author https://static.scientificamerican.com/sciam/cache/file/9C602FF5-3834-46F7-960E5E976066E9F9_source.jpg?w=590&h=800&FCC24C52-179A-4141-805C58C846079865 Getty Images
+
+openGraphImage https://static.scientificamerican.com/sciam/cache/file/9C602FF5-3834-46F7-960E5E976066E9F9_source.jpg?w=590&h=800&FCC24C52-179A-4141-805C58C846079865
+
+image https://static.scientificamerican.com/sciam/cache/file/9C602FF5-3834-46F7-960E5E976066E9F9_source.jpg?w=590&h=800&FCC24C52-179A-4141-805C58C846079865
+ caption Section of a brain affected by a glioblastoma
+
+groups index
+scrollFooter

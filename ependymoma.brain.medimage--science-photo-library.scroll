@@ -1,0 +1,13 @@
+import header.scroll
+title Ependymoma - Brain
+description a rare cancer that arises from the cells that line the ventricles of the brain and spinal cord. In this case both grey and white matter have been destroyed and replaced by the tumours.
+date 12/12/2022
+author https://media.sciencephoto.com/image/c0125404/800wm/C0125404-Brain_cancer.jpg MEDIMAGE / SCIENCE PHOTO LIBRARY
+
+openGraphImage https://media.sciencephoto.com/image/c0125404/800wm/C0125404-Brain_cancer.jpg
+
+image https://media.sciencephoto.com/image/c0125404/800wm/C0125404-Brain_cancer.jpg
+ caption a rare cancer that arises from the cells that line the ventricles of the brain and spinal cord. In this case both grey and white matter have been destroyed and replaced by the tumours.
+
+groups index
+scrollFooter

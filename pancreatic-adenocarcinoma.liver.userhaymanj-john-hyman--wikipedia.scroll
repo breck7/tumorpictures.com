@@ -1,0 +1,13 @@
+import header.scroll
+title Pancreatic adenocarcinoma - Liver
+description Cross-section of a human liver, at autopsy, showing many large pale tumor deposits, that are secondary tumors derived from pancreatic cancer
+date 12/12/2022
+author https://upload.wikimedia.org/wikipedia/commons/5/53/Secondary_tumor_deposits_in_the_liver_from_a_primary_cancer_of_the_pancreas.jpg User:Haymanj (John Hyman)  wikipedia
+
+openGraphImage https://upload.wikimedia.org/wikipedia/commons/5/53/Secondary_tumor_deposits_in_the_liver_from_a_primary_cancer_of_the_pancreas.jpg
+
+image https://upload.wikimedia.org/wikipedia/commons/5/53/Secondary_tumor_deposits_in_the_liver_from_a_primary_cancer_of_the_pancreas.jpg
+ caption Cross-section of a human liver, at autopsy, showing many large pale tumor deposits, that are secondary tumors derived from pancreatic cancer
+
+groups index
+scrollFooter
