@@ -1,4 +1,7 @@
-import header.scroll
+importOnly
+import settings.scroll
+scrollCssTag
+scrollHeader
 title TumorPictures.com
 description Pictures of tumors
 snippets index

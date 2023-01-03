@@ -1,0 +1,5 @@
+importOnly
+git https://github.com/breck7/tumorpictures.com
+viewSourceBaseUrl https://github.com/breck7/tumorpictures.com/blob/main
+email feedback@tumorpictures.com
+baseUrl https://tumorpictures.com
