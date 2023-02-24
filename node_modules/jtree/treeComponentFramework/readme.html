@@ -1,0 +1,75 @@
+<h1 class="scrollTitleComponent"><a href="readme.html">TreeComponentFramework</a></h1>
+
+<p class="scrollParagraphComponent">TreeComponentFramework is a <strong>research</strong> web framework for building reactive web apps using entirely Tree Notation.</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The Vision</h3>
+</div>
+<p class="scrollParagraphComponent">TreeComponentFramework is a step toward a world where web app development and debugging is much simpler! Every app can be dumped to a string and you can see all the state in the app in that string. See for yourself in the <a href="https://jtree.treenotation.org/treeComponentFramework/sweepercraft/">SweeperCraft app</a>--just press "d" to dump the app to a string.</p>
+
+<p class="scrollParagraphComponent">With TreeComponentFramework, you build your components in Tree Languages: instead of CSS use Hakon; instead of HTML use Stump; and instead of TypeScript/Javascript use TreeScript (coming soon). You define your components in those and then you create a high level Tree Language specifically for your app to stitch those components together.</p>
+
+<p class="scrollParagraphComponent">In the future as Tree Notation and Tree Language tooling improves you will be able to build enormously powerful and complex app webs using a single universal syntax from top to bottom. We think this will greatly simplify and improve the reliability of web apps.</p>
+
+<p class="scrollParagraphComponent">Today, your TreeComponentFramework apps are compiled to Javascript and HTML and then run on Virtual Machines like v8/Chromium, which will further compile your code to assembly/machine code and then send that to microprocessors which then compile it to microcode before final execution on hardware. In the long run if people build Tree Machines your code could be run directly as is on those.</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">Using it</h3>
+</div>
+<p class="scrollParagraphComponent">This framework is currently a <strong>research project</strong>. We expect to have *<strong>version 1 released sometime in 2020, if ever</strong>*. Feedback is much appreciated and feel free to experiment, but it is not recommended for production use at this time.</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">Examples</h3>
+</div>
+<p class="scrollParagraphComponent">The <a href="https://github.com/treenotation/jtree/tree/main/treeComponentFramework/sweepercraft">github repo</a> contains a demonstration game called "SweeperCraft" that let's you design your own Minesweeper board.</p>
+
+<p class="scrollParagraphComponent">This framework also powers:</p>
+
+<p class="scrollParagraphComponent"><a href="https://github.com/treenotation/jtree/tree/main/sandbox">Tree Notation Sandbox</a></p>
+<p class="scrollParagraphComponent"><a href="https://github.com/treenotation/jtree/tree/main/designer">Tree Language Designer</a></p>
+<p class="scrollParagraphComponent"><a href="https://github.com/treenotation/ohayo">Ohayo</a></p>
+<p class="scrollParagraphComponent"><a href="https://pau.treenotation.org/synth/">PauSynth</a></p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">Current Architecture</h3>
+<p class="scrollParagraphComponent">TreeComponentFramework is designed to run in the browser and NodeJS. It runs in NodeJS for faster headless testing.</p>
+</div>
+<p class="scrollParagraphComponent">Willow shims the environment so your app works with Willow and Willow handles system calls whether it is running in the browser or NodeJs.</p>
+
+<p class="scrollParagraphComponent">The diagram below was designed using textik - <a href="https://textik.com/#5d3d5f6ffc50de4b" target="_blank">https://textik.com/#5d3d5f6ffc50de4b</a></p>
+
+<code class="scrollCodeBlockComponent">   +--------------------------+         +-------------------------+
+   |          Browser         |         |          NodeJS         |
+   +--------------------------+         +-------------------------+
+                 |                                   |             
+                 |                                   |             
+   +--------------------------+        +--------------------------+
+   |  External Dependencies:  |        |    External Dependencies:|
+   |           SuperAgent     |        |         Superagent       |
+   +--------------------------+        +--------------------------+
+                 |                                   |             
+                 |    +----------------------------+ |             
+                 |    | Tree Dependencies:         | |             
+                 +----| JTree, Stump, Hakon        |-+             
+                      +----------------------------+               
+                                     |                             
+                                     |                             
+                      +----------------------------+               
+                      | TreeComponentFramework &   |               
+                      | Willow for browser shim    |               
+                      +----------------------------+               
+                                     |                             
+                                     |                             
+                      +----------------------------+               
+                      |Your App                    |               
+                      +----------------------------+               </code>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">FAQ</h3>
+</div>
+<div class="scrollSectionComponent"><h4 class="scrollQuestionComponent">Why build another web framework?</h4>
+</div>
+<p class="scrollParagraphComponent">No one has built a web framework that allows you to build web apps using only one single syntax, Tree Notation. This is an experiment.</p>
+
+<div class="scrollSectionComponent"><h4 class="scrollQuestionComponent">I see the Hakon and Stump but then I see mostly TypeScript/Javascript, so how is this different?</h4>
+</div>
+<p class="scrollParagraphComponent">An upcoming release will contain most of the TypeScript/Javascript converted to TreeScript. The design of TreeScript is still in heavy flux.</p>
+
+<div class="scrollSectionComponent"><h4 class="scrollQuestionComponent">How can I help?</h4>
+</div>
+<p class="scrollParagraphComponent">We are trying to combine Tree Notation with the best ideas from the current leading web frameworks like <a href="https://reactjs.org/">React</a>, <a href="https://svelte.dev/">Svelte</a> , and <a href="https://vuejs.org/">Vue</a>. We are not web framework experts and would LOVE if any experts on frameworks like those could give us some code reviews and point out any obvious bad patterns that we could fix.</p>

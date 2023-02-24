@@ -1,0 +1,73 @@
+<h1 class="scrollTitleComponent"><a href="readme.html">Stamp</a></h1>
+
+<p class="scrollParagraphComponent">First, show me some code</p>
+
+<code class="scrollCodeBlockComponent">folder myProject
+file myProject/index.js
+ data
+  console.log("Hello world")
+file myProject/readme.md
+ data
+  # My Readme</code>
+
+<p class="scrollParagraphComponent">You can also play with writing your own stamp files by hand in this <a href="https://jtree.treenotation.org/designer/#standard%20stamp">web IDE</a> to see autocomplete, type checking, and the full grammar.</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">QuickStart: How to use Stamp in Node</h3>
+<p class="scrollParagraphComponent">Stamp can be used in node to turn a folder on disk into a single stamp file, and to expand a single stamp file into a folder on disk.</p>
+</div>
+<code class="scrollCodeBlockComponent">npm install jtree</code>
+
+<code class="scrollCodeBlockComponent">const stamp = require("jtree/products/stamp.nodejs.js")
+// Convert a folder to a stamp string:
+const stampString = stamp.dirToStampWithContents(__dirname)
+// Expand a stamp to disk
+new stamp(`file hello-world.txt`).execute()</code>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">How to use Stamp with other languages</h3>
+<p class="scrollParagraphComponent"></p>
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">About</h3>
+<p class="scrollParagraphComponent">Stamp is an alternative to zip files for sharing a small collection of folders and text files.</p>
+</div></div>
+<p class="scrollParagraphComponent">A Stamp Program is an easily readable plain text program that when executed creates the files and folders listed.</p>
+
+<p class="scrollParagraphComponent">Stamp Programs are great for workflows where you prompt a user for input and then do a simple find/replace throughout the created files and folders.</p>
+
+<p class="scrollParagraphComponent">Frequently programmers have templates that they start new projects with. Those templates can be turned into Stamp files.</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The Problem</h3>
+<p class="scrollParagraphComponent">The web is full of project tutorials like <a href="https://docs.npmjs.com/getting-started/creating-node-modules">this one</a> that ask their readers to go through a series of steps to create a particular folder and file structure for a new project.</p>
+</div>
+<p class="scrollParagraphComponent">The current options for this situation are:</p>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The Recipe Method - explain each step</h3>
+</div>
+<ul><li class="scrollParagraphComponent">Downside: If your basic project layout requires 10 files, that's 10 separate steps the reader has to do just to get started.</li>
+<li class="scrollParagraphComponent">Downside: The reader might make an error during one of those steps and lose even more time.</li>
+<li class="scrollParagraphComponent">Downside: Putting such steps in a narrative and updating that narrative if things change is time consuming as an author</li></ul>
+
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The Zip Method - zip the template directory</h3>
+<ul><li class="scrollParagraphComponent">Downside: zip files are opaque and a user has no visibility into what they are creating</li>
+<li class="scrollParagraphComponent">Downside: everytime the template changes, author has to rezip and reupload the folder</li>
+<li class="scrollParagraphComponent">Downside: once unzipped, user has to manually change names to match the name of their project</li></ul>
+</div>
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The Custom Utility Method - implement a custom command line program that generates new projects*</h3>
+<ul><li class="scrollParagraphComponent">Downside: No visibility into what is getting created</li>
+<li class="scrollParagraphComponent">Downside: If the template changes, now author needs to get users to install the new template program</li>
+<li class="scrollParagraphComponent">Downside: Now you have a whole new complicated program to write and maintain</li></ul>
+</div>
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">The GitHub method - create a repo for your template and have people git clone it</h3>
+<ul><li class="scrollParagraphComponent">Downside: no way of doing variable replacement post-clone</li>
+<li class="scrollParagraphComponent">Downside: no plain text way of distributing the template</li></ul>
+</div>
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">Alternatives Considered</h3>
+<p class="scrollParagraphComponent"><a href="https://en.wikipedia.org/wiki/List_of_archive_formats">Wikipedia list of archive formats</a></p>
+<p class="scrollParagraphComponent"><a href="https://github.com/jtvaughan/ptar">ptar</a> full featured, but difference is the file output is a custom format (not a Tree Language)</p>
+<p class="scrollParagraphComponent"><a href="https://en.wikipedia.org/wiki/Shar">shar</a> old school method that has the major security flaw of potentially running any shell command</p>
+<p class="scrollParagraphComponent"><a href="http://dar.linux.free.fr/">dar</a></p>
+<p class="scrollParagraphComponent"><a href="https://github.com/xyproto/metatar">metatar</a></p>
+<p class="scrollParagraphComponent"><a href="https://pkg.go.dev/golang.org/x/tools@v0.1.0/txtar">txtar</a></p>
+</div>
+<div class="scrollSectionComponent"><h3 class="scrollParagraphComponent">Directory Editors</h3>
+<p class="scrollParagraphComponent"><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">Dired</a></p>
+<p class="scrollParagraphComponent"><a href="https://github.com/thameera/vimv">vimv</a></p>
+</div>
