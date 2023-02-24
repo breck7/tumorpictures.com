@@ -1,8 +1,7 @@
-importOnly
 import settings.scroll
+metaTags
 scrollCssTag
 scrollHeader
 title TumorPictures.com
-description Pictures of tumors
 snippets index
 scrollFooter

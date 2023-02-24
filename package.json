@@ -12,7 +12,7 @@
   },
   "homepage": "https://tumorpictures.com",
   "dependencies": {
-    "jtree": "^59.1.2",
-    "scroll-cli": "^48.3.0"
+    "jtree": "^69.0.0",
+    "scroll-cli": "^58.2.0"
   }
 }
